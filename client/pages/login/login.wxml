@@ -1,0 +1,15 @@
+<!--pages/login/login.wxml-->
+<View class='root'>
+  <View class='login'>
+    <View class='line'>
+      <View class='line flex1'>房间号码</View>
+      <input class='flex1' placeholder=""/>
+    </View>
+    <View class='line'>
+    <button bindTap='doLogin' size='default' type='primary' class='button'>登录</button>
+    </View>
+    <View class='line'>
+      <button bindTap='doRegister' class='register' size='mini' type='plain'>注册</button>
+    </View>
+  </View>
+</View>
